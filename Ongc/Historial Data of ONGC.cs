@@ -10,7 +10,11 @@ using System.Xml.Linq;
 using static System.Net.WebRequestMethods;
 
 namespace Ongc
+
 {
+    /// <summary>
+    /// hello all
+    /// </summary>
     internal class Program
     {
         static string Web = "https://ongcindia.com";
@@ -36,7 +40,7 @@ namespace Ongc
                 var sttr = htmlnote.Attributes;
                 var Title = htmlnote.Descendants("a");
                 var Title1 = Title.FirstOrDefault().GetAttributeValue("title", String.Empty);
-                if (Title1 == "Text" )
+                if (Title1 == "Text")
                     continue;
                 Console.WriteLine(Title1);
                 var link = htmlnote.Descendants("a");
