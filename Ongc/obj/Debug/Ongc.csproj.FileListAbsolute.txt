@@ -1,0 +1,16 @@
+C:\Sumit\code\Ongc\Ongc\bin\Debug\Ongc.exe.config
+C:\Sumit\code\Ongc\Ongc\bin\Debug\Ongc.exe
+C:\Sumit\code\Ongc\Ongc\bin\Debug\Ongc.pdb
+C:\Sumit\code\Ongc\Ongc\obj\Debug\Ongc.csproj.AssemblyReference.cache
+C:\Sumit\code\Ongc\Ongc\obj\Debug\Ongc.csproj.SuggestedBindingRedirects.cache
+C:\Sumit\code\Ongc\Ongc\obj\Debug\Ongc.csproj.CoreCompileInputs.cache
+C:\Sumit\code\Ongc\Ongc\obj\Debug\Ongc.exe
+C:\Sumit\code\Ongc\Ongc\obj\Debug\Ongc.pdb
+C:\Sumit\code\Ongc\Ongc\bin\Debug\EntityFramework.dll
+C:\Sumit\code\Ongc\Ongc\bin\Debug\EntityFramework.SqlServer.dll
+C:\Sumit\code\Ongc\Ongc\bin\Debug\HtmlAgilityPack.dll
+C:\Sumit\code\Ongc\Ongc\bin\Debug\EntityFramework.xml
+C:\Sumit\code\Ongc\Ongc\bin\Debug\EntityFramework.SqlServer.xml
+C:\Sumit\code\Ongc\Ongc\bin\Debug\HtmlAgilityPack.pdb
+C:\Sumit\code\Ongc\Ongc\bin\Debug\HtmlAgilityPack.xml
+C:\Sumit\code\Ongc\Ongc\obj\Debug\Ongc.csproj.CopyComplete
