@@ -9,48 +9,46 @@ using System.Threading.Tasks;
 
 namespace Ongc
 {
-    internal class Relience_Press_new
+    internal class ChairmanCommunication
     {
-
-        static void Main7(string[] args)
+        static string ad = "https://www.ril.com";
+        static void Main(string[] args)
         {
-            string url = " https://www.ril.com/MediaReleases.aspx?aliaspath=%2fMediaReleases";
-
+            string url = "https://www.ril.com/InvestorRelations/Chairman-Communication.aspx";
             string data = GetURLData(url);
-            // Console.WriteLine(data);
+           // Console.WriteLine(data);
             NewsExtract(data);
             Console.ReadLine();
         }
-
         private static List<TataCaptial> NewsExtract(string data)
         {
             List<TataCaptial> liNews = new List<TataCaptial>();
             var doc = new HtmlDocument();
             doc.LoadHtml(data);
-            HtmlNodeCollection nodesMatchingXPath = doc.DocumentNode.SelectNodes("//div[@class='well well-sm bg-grey-light news-mB10']");
+            HtmlNodeCollection nodesMatchingXPath = doc.DocumentNode.SelectNodes("//tbody/tr");
 
             foreach (var htmlnote in nodesMatchingXPath)
             {
-                var sttr = htmlnote.Attributes;
-                var link = htmlnote.Descendants("a");
-                var link1 = link.FirstOrDefault().GetAttributeValue("href", String.Empty);
-                Console.WriteLine(link1);
-                //var link2 = Web + link1;
-                //Console.WriteLine(link2);
-                //var Date = htmlnote.Descendants("p");
 
-                //string Date1 = HtmlUtilities.ConvertToPlainText(HtmlEntity.DeEntitize(Date.FirstOrDefault().InnerHtml));
-                //Date1 = Date1.Replace("\n", "");
+                var doc2 = new HtmlDocument();
 
-                //while (Date1.Contains("  "))
-                //    Date1 = Date1.Replace("   ", "");
-                //Console.WriteLine(Date1);
-                //var Title = htmlnote.Descendants("span");
-                //Console.WriteLine(Title.FirstOrDefault().InnerHtml);
+                doc2.LoadHtml(htmlnote.InnerHtml);
+                HtmlNodeCollection nodesMatchingXPath1 = doc2.DocumentNode.SelectNodes("//td");
 
 
+                var sttr1 = nodesMatchingXPath1[0].InnerHtml;
+                var date = sttr1.Replace("\r\n\t\t\t\t", "");
+                var strr = nodesMatchingXPath1[1].Descendants("a").FirstOrDefault();
+                if (strr != null)
+                {
+                    var web1 = (strr.GetAttributeValue("href", String.Empty));
+                    var link = (ad + web1);
+                    Console.WriteLine(link);
+                }
+                var Title = nodesMatchingXPath1[1].Descendants("a").FirstOrDefault().InnerHtml;
 
-
+                Console.WriteLine(date);
+                Console.WriteLine(Title);
 
             }
             return liNews;
@@ -68,7 +66,6 @@ namespace Ongc
             reader.Close();
             return s;
         }
-
 
     }
 }

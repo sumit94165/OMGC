@@ -55,6 +55,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChairmanCommunication.cs" />
     <Compile Include="Latest Data of ONGC.cs" />
     <Compile Include="lic.cs" />
     <Compile Include="Omgc.html.cs" />
