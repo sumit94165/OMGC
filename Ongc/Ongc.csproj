@@ -63,6 +63,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model2.tt</DependentUpon>
     </Compile>
+    <Compile Include="Relience Press new.cs" />
+    <Compile Include="Relience-corporateAllowancement.cs" />
     <Compile Include="TataCapital.cs" />
     <Compile Include="TataCaptial.cs">
       <DependentUpon>Model2.tt</DependentUpon>

@@ -13,7 +13,7 @@ namespace Ongc
     internal class TataCapital
     {
         static string ad = "https://www.tatacapital.com";
-        static void Main(string[] args)
+        static void Main5(string[] args)
         {
             string url = "https://www.tatacapital.com/media-center/press-releases.html";
             string data = GetURLData(url);
@@ -53,7 +53,7 @@ namespace Ongc
                 if (title == null)
                     continue;
                 var title1 = HtmlUtilities.ConvertToPlainText(title.InnerHtml);
-                title1 = title1.Replace("/n", "");
+                title1 = title1.Replace("\r\n", "");
                 while (title1.Contains("  "))
                     title1 = title1.Replace("  ", "");
                 Console.WriteLine(title1);
