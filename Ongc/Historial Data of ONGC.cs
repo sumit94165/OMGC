@@ -50,10 +50,7 @@ namespace Ongc
                 var Date = htmlnote.Descendants("p");
 
                 string Date1 = HtmlUtilities.ConvertToPlainText(HtmlEntity.DeEntitize(Date.FirstOrDefault().InnerHtml));
-                Date1 = Date1.Replace("\n", "");
 
-                while (Date1.Contains("  "))
-                    Date1 = Date1.Replace("   ", "");
                 Console.WriteLine(Date1);
                 //var Title = htmlnote.Descendants("span");
                 //Console.WriteLine(Title.FirstOrDefault().InnerHtml);

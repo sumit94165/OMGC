@@ -1,6 +1,7 @@
 ﻿using HtmlAgilityPack;
 using System;
 using System.IO;
+using System.Runtime.InteropServices.WindowsRuntime;
 
 namespace Ongc
 {
@@ -19,7 +20,14 @@ namespace Ongc
             StringWriter sw = new StringWriter();
             ConvertTo(doc.DocumentNode, sw);
             sw.Flush();
-            return sw.ToString();
+            string str = sw.ToString();
+
+            str = str.Replace("\n", "");
+
+            while (str.Contains("  "))
+                str = str.Replace("   ", "");
+
+            return str;
         }
 
 

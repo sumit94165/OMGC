@@ -12,11 +12,11 @@ namespace Ongc
     internal class ChairmanCommunication
     {
         static string ad = "https://www.ril.com";
-        static void Main(string[] args)
+        static void Main8(string[] args)
         {
             string url = "https://www.ril.com/InvestorRelations/Chairman-Communication.aspx";
             string data = GetURLData(url);
-           // Console.WriteLine(data);
+            // Console.WriteLine(data);
             NewsExtract(data);
             Console.ReadLine();
         }

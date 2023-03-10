@@ -55,21 +55,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AsianPaints.cs" />
+    <Compile Include="Bajaj Fin.cs" />
+    <Compile Include="BaseClass.cs" />
+    <Compile Include="bharatpetroleum.cs" />
+    <Compile Include="Bosch.cs" />
     <Compile Include="ChairmanCommunication.cs" />
+    <Compile Include="DaburIndia.cs" />
+    <Compile Include="Hind.Zinc.cs" />
+    <Compile Include="ICICPressNews.cs" />
+    <Compile Include="Indian Oil Corporation Press.cs" />
+    <Compile Include="IndusInd Bank.cs" />
+    <Compile Include="InfosysPressNews.cs" />
+    <Compile Include="larsentoubro.cs" />
     <Compile Include="Latest Data of ONGC.cs" />
     <Compile Include="lic.cs" />
+    <Compile Include="NTPC.cs" />
     <Compile Include="Omgc.html.cs" />
     <Compile Include="Model2.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Model2.tt</DependentUpon>
     </Compile>
+    <Compile Include="PowerGrid.cs" />
     <Compile Include="Relience Press new.cs" />
     <Compile Include="Relience-corporateAllowancement.cs" />
+    <Compile Include="Shree Cement.cs" />
+    <Compile Include="Shree Cement1.cs" />
+    <Compile Include="Sun Pharma.Inds.cs" />
     <Compile Include="TataCapital.cs" />
     <Compile Include="TataCaptial.cs">
       <DependentUpon>Model2.tt</DependentUpon>
     </Compile>
+    <Compile Include="Vadanta.cs" />
+    <Compile Include="Wipro.cs" />
+    <Content Include="dummy.html" />
     <Content Include="Model2.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Model2.Context.cs</LastGenOutput>

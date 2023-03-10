@@ -1,0 +1,7 @@
+﻿static void Main(string[] args)
+        {
+            string url = "";
+            string data = GetURLData(url);
+            NewsExtract(data, "//div[@class='stage-tile-cta']");
+            Console.ReadLine();
+        }
