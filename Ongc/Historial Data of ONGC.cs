@@ -18,7 +18,7 @@ namespace Ongc
     internal class Program
     {
         static string Web = "https://ongcindia.com";
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             string url = "https://ongcindia.com/web/eng/media/press-release";
             string data = GetURLData(url);

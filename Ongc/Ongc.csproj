@@ -56,12 +56,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Latest Data of ONGC.cs" />
+    <Compile Include="lic.cs" />
     <Compile Include="Omgc.html.cs" />
     <Compile Include="Model2.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Model2.tt</DependentUpon>
     </Compile>
+    <Compile Include="TataCapital.cs" />
     <Compile Include="TataCaptial.cs">
       <DependentUpon>Model2.tt</DependentUpon>
     </Compile>
