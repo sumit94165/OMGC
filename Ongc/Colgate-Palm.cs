@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Ongc
 {
-    internal class Shree_Cement1 : BaseClass
+    internal class Colgate_Palm : BaseClass
     {
-        static void Main51(string[] args)
+        static void Main100(string[] args)
         {
-            string url = "https://www.shreecement.com/newsroom/media-mentions";
+            string url = "https://investor.colgatepalmolive.com/press-releases";
             string data = GetURLData(url);
-            NewsExtract(data, "//div[@class='press-releases-desc']");
+            NewsExtract(data, "//div[@class='component-content']");
+
             Console.ReadLine();
         }
-
     }
 }

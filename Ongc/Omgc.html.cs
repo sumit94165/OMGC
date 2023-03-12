@@ -25,7 +25,7 @@ namespace Ongc
             str = str.Replace("\n", "");
 
             while (str.Contains("  "))
-                str = str.Replace("   ", "");
+                str = str.Replace("  ", "");
 
             return str;
         }

@@ -61,6 +61,7 @@
     <Compile Include="bharatpetroleum.cs" />
     <Compile Include="Bosch.cs" />
     <Compile Include="ChairmanCommunication.cs" />
+    <Compile Include="Colgate-Palm.cs" />
     <Compile Include="DaburIndia.cs" />
     <Compile Include="Hind.Zinc.cs" />
     <Compile Include="ICICPressNews.cs" />
@@ -82,6 +83,7 @@
     <Compile Include="Relience-corporateAllowancement.cs" />
     <Compile Include="Shree Cement.cs" />
     <Compile Include="Shree Cement1.cs" />
+    <Compile Include="Shriram Fiance.cs" />
     <Compile Include="Sun Pharma.Inds.cs" />
     <Compile Include="TataCapital.cs" />
     <Compile Include="TataCaptial.cs">
