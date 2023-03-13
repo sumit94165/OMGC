@@ -10,15 +10,16 @@ namespace Ongc
     {
         static void Main(string[] args)
         {
-            // string url = "https://www.shriramfinance.in/press-release";
-            string url = "https://www.dalmiacement.com/investor/dalmia-bharat-limited/";
+            //  string url = "https://corporate.whirlpoolindia.com/press-release/";
+            string url = "https://investor.cummins.com/news";
 
 
             string data = GetURLData(url);
+            // whirlpool pressdata  NewsExtract(data, "//div[@class='post-title']");
             //Console.WriteLine(data);
-            // NewsExtract(data, "//li[@class='animatedParent']");
-          NewsExtract(data, "//div[@class='ed-element ed-html']");
-          //  NewsExtract(data, "//p");
+            // NewsExtract(data, "//li[@class='liscreen']");
+               NewsExtract(data, "//h2[@class='media-heading']");
+            //NewsExtract(data, " //li ");
 
             Console.ReadLine();
         }
