@@ -1,6 +1,7 @@
 ﻿using HtmlAgilityPack;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity.Core.Common.CommandTrees.ExpressionBuilder;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -24,26 +25,46 @@ namespace Ongc
             return s;
         }
 
-        public static List<TataCapital> NewsExtract(string data, string nodes)
+        public static List<TataCaptial> NewsExtract(string data, string nodes)
         {
-            List<TataCapital> liNews = new List<TataCapital>();
+            DateTime now = DateTime.Now; ;
+
+            List<TataCaptial> liNews = new List<TataCaptial>();
             var doc = new HtmlDocument();
             doc.LoadHtml(data);
             HtmlNodeCollection nodesMatchingXPath = doc.DocumentNode.SelectNodes(nodes);
-
-            foreach (var htmlnote in nodesMatchingXPath)
+            if (nodesMatchingXPath != null)
             {
-                var strr = htmlnote.Attributes;
-                var Title = htmlnote.Descendants("a").FirstOrDefault();
-                if (Title != null)
+                foreach (var htmlnote in nodesMatchingXPath)
                 {
-                    Console.WriteLine(HtmlUtilities.ConvertToPlainText(Title.InnerHtml));
-                    Console.WriteLine(Title.GetAttributeValue("href", String.Empty));
+                    var strr = htmlnote.Attributes;
+                    var Title = htmlnote.Descendants("a").FirstOrDefault();
+                    if (Title != null)
+                    {
+                        var Title1 = (HtmlUtilities.ConvertToPlainText(Title.InnerHtml));
+                        var link = (Title.GetAttributeValue("href", String.Empty));
+
+                        var tataCapital = new TataCaptial();
+                        tataCapital.Title = Title1;
+                        tataCapital.Link = "" + link;
+                        tataCapital.Date = DateTime.Now.ToString();
+
+
+
+                        liNews.Add(tataCapital);
+
+
+                    }
+
                 }
             }
             return liNews;
+
         }
 
-
+        public void getData
+           ()
+        {
+        }
     }
 }

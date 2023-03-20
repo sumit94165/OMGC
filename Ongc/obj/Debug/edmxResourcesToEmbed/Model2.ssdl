@@ -6,7 +6,7 @@
     </Key>
     <Property Name="ID" Type="int" Nullable="false" />
     <Property Name="Date" Type="varchar" MaxLength="50" />
-    <Property Name="Title" Type="varbinary(max)" />
+    <Property Name="Title" Type="varchar(max)" />
     <Property Name="Link" Type="varchar(max)" />
   </EntityType>
   <EntityContainer Name="Sample2ModelStoreContainer">

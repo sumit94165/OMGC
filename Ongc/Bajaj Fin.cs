@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace Ongc
 {
-    internal class Bajaj_Fin : BaseClass
+    internal class Bajaj_Fin : BaseClass2
     {
-        static void Main30(string[] args)
+        static void Main3343(string[] args)
         {
-            string url = " https://www.bajajfinserv.in/call-to-service&PageName=annualreports&AnnualYearParentId=1501195071407\r\n";
+            string url = "";
             string data = GetURLData(url);
-            NewsExtract(data, "//h4");
+            //     NewsExtract(data, "//div[@class='data']");
+            NewsExtract(data, "//li");
             Console.ReadLine();
         }
     }

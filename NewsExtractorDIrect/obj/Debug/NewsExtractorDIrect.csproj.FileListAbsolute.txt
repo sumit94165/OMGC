@@ -1,0 +1,16 @@
+C:\Sumit\code\d365.lab.plugin\OMGC\NewsExtractorDIrect\obj\Debug\NewsExtractorDIrect.csproj.AssemblyReference.cache
+C:\Sumit\code\d365.lab.plugin\OMGC\NewsExtractorDIrect\obj\Debug\NewsExtractorDIrect.csproj.SuggestedBindingRedirects.cache
+C:\Sumit\code\d365.lab.plugin\OMGC\NewsExtractorDIrect\obj\Debug\NewsExtractorDIrect.csproj.CoreCompileInputs.cache
+C:\Sumit\code\d365.lab.plugin\OMGC\NewsExtractorDIrect\bin\Debug\NewsExtractorDIrect.exe.config
+C:\Sumit\code\d365.lab.plugin\OMGC\NewsExtractorDIrect\bin\Debug\NewsExtractorDIrect.exe
+C:\Sumit\code\d365.lab.plugin\OMGC\NewsExtractorDIrect\bin\Debug\NewsExtractorDIrect.pdb
+C:\Sumit\code\d365.lab.plugin\OMGC\NewsExtractorDIrect\bin\Debug\EntityFramework.dll
+C:\Sumit\code\d365.lab.plugin\OMGC\NewsExtractorDIrect\bin\Debug\EntityFramework.SqlServer.dll
+C:\Sumit\code\d365.lab.plugin\OMGC\NewsExtractorDIrect\bin\Debug\HtmlAgilityPack.dll
+C:\Sumit\code\d365.lab.plugin\OMGC\NewsExtractorDIrect\bin\Debug\EntityFramework.xml
+C:\Sumit\code\d365.lab.plugin\OMGC\NewsExtractorDIrect\bin\Debug\EntityFramework.SqlServer.xml
+C:\Sumit\code\d365.lab.plugin\OMGC\NewsExtractorDIrect\bin\Debug\HtmlAgilityPack.pdb
+C:\Sumit\code\d365.lab.plugin\OMGC\NewsExtractorDIrect\bin\Debug\HtmlAgilityPack.xml
+C:\Sumit\code\d365.lab.plugin\OMGC\NewsExtractorDIrect\obj\Debug\NewsExtractorDIrect.csproj.CopyComplete
+C:\Sumit\code\d365.lab.plugin\OMGC\NewsExtractorDIrect\obj\Debug\NewsExtractorDIrect.exe
+C:\Sumit\code\d365.lab.plugin\OMGC\NewsExtractorDIrect\obj\Debug\NewsExtractorDIrect.pdb

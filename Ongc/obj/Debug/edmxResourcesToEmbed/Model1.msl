@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Sample2ModelStoreContainer" CdmEntityContainer="Sample2Entities6">
+    <EntitySetMapping Name="AirtelNews">
+      <EntityTypeMapping TypeName="Sample2Model.AirtelNew">
+        <MappingFragment StoreEntitySet="AirtelNew">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TataCaptials">
+      <EntityTypeMapping TypeName="Sample2Model.TataCaptial">
+        <MappingFragment StoreEntitySet="TataCaptial">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WebsideDatas">
+      <EntityTypeMapping TypeName="Sample2Model.WebsideData">
+        <MappingFragment StoreEntitySet="WebsideData">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Webside__Web_side__website___" ColumnName="Webside&#xD;&#xA;Web side&#xD;&#xA;website]]]" />
+          <ScalarProperty Name="Document_Node" ColumnName="Document Node" />
+          <ScalarProperty Name="companyWebSite" ColumnName="companyWebSite" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

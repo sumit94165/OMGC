@@ -30,3 +30,7 @@ C:\Sumit\code\d365.lab.plugin\OMGC\Ongc\obj\Debug\Ongc.csproj.CoreCompileInputs.
 C:\Sumit\code\d365.lab.plugin\OMGC\Ongc\obj\Debug\Ongc.csproj.CopyComplete
 C:\Sumit\code\d365.lab.plugin\OMGC\Ongc\obj\Debug\Ongc.exe
 C:\Sumit\code\d365.lab.plugin\OMGC\Ongc\obj\Debug\Ongc.pdb
+C:\Sumit\code\d365.lab.plugin\OMGC\Ongc\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Sumit\code\d365.lab.plugin\OMGC\Ongc\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Sumit\code\d365.lab.plugin\OMGC\Ongc\obj\Debug\Interop.VBIDE.dll
+C:\Sumit\code\d365.lab.plugin\OMGC\Ongc\obj\Debug\Ongc.csproj.ResolveComReference.cache

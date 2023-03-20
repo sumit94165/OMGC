@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ongc", "Ongc\Ongc.csproj", "{7AACBE43-40FF-49F1-A0DF-8CF44E24FE22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsExtractorDIrect", "NewsExtractorDIrect\NewsExtractorDIrect.csproj", "{C38A50D5-B0BD-4013-BD4C-4E40A69466CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7AACBE43-40FF-49F1-A0DF-8CF44E24FE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AACBE43-40FF-49F1-A0DF-8CF44E24FE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AACBE43-40FF-49F1-A0DF-8CF44E24FE22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C38A50D5-B0BD-4013-BD4C-4E40A69466CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38A50D5-B0BD-4013-BD4C-4E40A69466CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38A50D5-B0BD-4013-BD4C-4E40A69466CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38A50D5-B0BD-4013-BD4C-4E40A69466CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

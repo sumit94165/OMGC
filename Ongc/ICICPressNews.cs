@@ -26,9 +26,9 @@ namespace Ongc
 
         }
 
-        private static List<TataCapital> NewsExtract(string data)
+        private static List<TataCaptial> NewsExtract(string data)
         {
-            List<TataCapital> liNews = new List<TataCapital>();
+            List<TataCaptial> liNews = new List<TataCaptial>();
             var doc = new HtmlDocument();
             doc.LoadHtml(data);
             HtmlNodeCollection nodesMatchingXPath = doc.DocumentNode.SelectNodes("//p");
