@@ -10,10 +10,10 @@ namespace Ongc
     {
         static void Main(string[] args)
         {
-            string url = "https://hexaware.com/blogs/";
+            string url = "https://www.mmtclimited.com/pages/show/256-annual-report-(english)-";
             string data = GetURLData(url);
-            NewsExtract(data, "//div[@class='media-body']");
-            // NewsExtract(data, "//li");
+            // NewsExtract(data, "//div[@class='action-box']");
+            NewsExtract(data, "//li");
             Console.ReadLine();
         }
     }
