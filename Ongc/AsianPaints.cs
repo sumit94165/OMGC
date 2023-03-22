@@ -13,7 +13,7 @@ namespace Ongc
     {
         List<TataCaptial> totalNews = new List<TataCaptial>();
 
-        static void Main(string[] args)
+        static void Main1111(string[] args)
         {
             Sample2Entities6 ne = new Sample2Entities6();
 
